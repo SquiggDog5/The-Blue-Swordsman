@@ -10,7 +10,7 @@ from os.path import exists as file_exists
 #   Define some variables
 useText = False
 
-lvl = 65
+lvl = 0
 
 lives = 3
 
@@ -98,7 +98,7 @@ goneFD = False
 allLevelSetup = []
 hasTicked64 = False
 usedLinkCombos = []
-cheat = True  # <---------------------------------                 This variable, when "True," makes you invulnerable and faster to observe and fly through levels
+cheat = False  # <---------------------------------                 This variable, when "True," makes you invulnerable and faster to observe and fly through levels
 
 ### Initializing stuff + setting up
 pygame.init()
